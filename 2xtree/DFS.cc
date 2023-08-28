@@ -3,9 +3,6 @@
 #include <vector>
 #include <stack>
 #include <algorithm>
-
-namespace dchg {
-
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -97,9 +94,6 @@ public:
 
 
 
-};
-
-
 
 
 
@@ -113,7 +107,4 @@ public:
 
 
     
-} 
-
-
-
+} ;
