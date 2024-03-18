@@ -1,0 +1,1 @@
+int cal(int n,int m,int *a,int *v){   vector<int> f(m+1,0);   for(int i = 1;i<=n;i++)   {      for(int j = m;j>=a[i];j--)      { f[j] = max(f[j],f[j-a[i]]+v[i]);}   }   return f[m];}//动态规划

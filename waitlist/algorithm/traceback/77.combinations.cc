@@ -10,7 +10,10 @@ private:
             result.push_back(path);
             return;
         }
-        for (int i = startIndex; i <= n; i++) {
+        // for (int i = startIndex; i <= n; i++) {
+        for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) { // 优化的地方 
+        //如果for循环选择的起始位置之后的元素个数 已经不足 我们需要的元素个数了，那么就没有必要搜索了。
+        //n-i>=k-path.size() -1(因为还没有加进去path)
             path.push_back(i); // 处理节点
             backtracking(n, k, i + 1); // 递归
             path.pop_back(); // 回溯，撤销处理的节点
@@ -24,3 +27,4 @@ public:
         return result;
     }
 };
+
