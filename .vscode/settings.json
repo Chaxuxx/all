@@ -50,5 +50,6 @@
         "stack": "cpp",
         "queue": "cpp",
         "climits": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/mnt/d/Code/2workspace/all/daily/2024-03-18/testcatch2"
 }

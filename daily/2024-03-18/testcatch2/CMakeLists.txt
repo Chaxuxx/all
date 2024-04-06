@@ -1,7 +1,7 @@
 # cmake_minimum_required(VERSION 3.18) ubuntu 没有这么高版本
 cmake_minimum_required(VERSION 3.16)
 
-project(catch2test)
+project(testcatch2)
 
 # CMAKE_PREFIX_PATH(${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/Catch2)
 # set(CMAKE_PREFIX_PATH /mnt/d/code/2workspace/all/depends)
