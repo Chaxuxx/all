@@ -14,3 +14,5 @@ We record ==八股文== learning with obsidian.This part is more about code.
 - add gitignore file
 
 From then on, we use daily directory to store daily code.
+
+>[!note] 这是支持的吗
